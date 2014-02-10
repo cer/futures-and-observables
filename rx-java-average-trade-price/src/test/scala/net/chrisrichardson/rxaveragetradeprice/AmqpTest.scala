@@ -1,0 +1,3 @@
+package net.chrisrichardson.rxaveragetradeprice
+
+trait AmqpTest

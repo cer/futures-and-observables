@@ -1,0 +1,1 @@
+This is the example code from my presentation [Consuming web services asynchronously with Futures and Rx Observables](http://plainoldobjects.com/presentations/decomposing-applications-for-deployability-and-scalability/futures-and-rx-observables-powerful-abstractions-for-consuming-web-services-asynchronously)

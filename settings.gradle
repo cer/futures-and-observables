@@ -1,0 +1,4 @@
+include ':spring-product-page', ':rx-java-average-trade-price'
+
+project(':spring-product-page').projectDir = "$rootDir/spring-product-page" as File
+project(':rx-java-average-trade-price').projectDir = "$rootDir/rx-java-average-trade-price" as File
