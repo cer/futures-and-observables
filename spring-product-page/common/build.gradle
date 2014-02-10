@@ -1,0 +1,23 @@
+apply plugin: 'scala'
+
+dependencies {
+    compile 'com.fasterxml.jackson.core:jackson-core:2.2.2'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.2.2'
+    compile 'com.fasterxml.jackson.module:jackson-module-scala_2.10:2.2.2'
+
+    compile 'org.springframework:spring-web:4.0.0.RELEASE'
+    compile "org.apache.httpcomponents:httpasyncclient:4.0"
+
+    compile ('org.scala-lang:scala-library:2.10.2') {
+        force true
+    }
+
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.10', version: '2.2.1'
+    compile "org.jboss.netty:netty:3.2.9.Final"
+
+    compile "com.netflix.rxjava:rxjava-core:0.16.0"
+    compile "com.netflix.rxjava:rxjava-scala:0.16.0"
+
+    compile "ch.qos.logback:logback-classic:1.0.13"
+
+}

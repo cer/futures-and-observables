@@ -1,0 +1,6 @@
+rootProject.name = 'spring-product-page'
+include ':webtestutil', ':rest-template', ':common'
+
+project(':webtestutil').projectDir = "$rootDir/webtestutil" as File
+project(':rest-template').projectDir = "$rootDir/rest-template" as File
+project(':common').projectDir = "$rootDir/common" as File
